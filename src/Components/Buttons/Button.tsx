@@ -1,3 +1,5 @@
+import './Button.css'
+
 type Props = {
   children: string;
   variant?: "primary" | "secondary" | "success" | "warning";
@@ -14,7 +16,7 @@ export default function Button({ children, variant, ...rest }: Props) {
   };
 
   if (variant === "primary") {
-    style.colour= "#fff" ,
+    style.colour= "white" ,
     style.backgroundColor = "#0d6efd";
     style.paddingBottom = "1.5rem";
     style.paddingBottom = "1.5rem";
@@ -22,7 +24,7 @@ export default function Button({ children, variant, ...rest }: Props) {
   }
 
   if (variant === "secondary") {
-    style.colour= "#fff" ,
+    style.colour= "white" ,
     style.backgroundColor = "#6c757d";
     style.paddingBottom = "0.7rem";
     style.paddingBottom = "0.7rem";
@@ -30,7 +32,7 @@ export default function Button({ children, variant, ...rest }: Props) {
   }
 
   if (variant === "success") {
-    style.colour= "#fff" ,
+    style.colour= "white" ,
     style.backgroundColor = "#198754";
     style.paddingBottom = "1.5rem";
     style.paddingBottom = "1.5rem";

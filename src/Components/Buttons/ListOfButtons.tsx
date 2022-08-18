@@ -3,7 +3,9 @@ import Button from "./Button";
 function ListOfButtons() {
   return (
     <>
-      <Button variant="primary" onClick={() => alert("I am important")}>
+      <Button variant="primary" 
+      //@ts-ignore
+      onClick={() => alert("Please read all the instructions")}>
         Primary
       </Button>{" "}
       <Button variant="secondary">Secondary</Button>{" "}

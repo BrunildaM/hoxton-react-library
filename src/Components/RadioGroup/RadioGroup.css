@@ -1,0 +1,27 @@
+.radioCheck {
+   display: grid;
+   gap: 1rem;
+   cursor: pointer;
+   place-content: center;
+   font-size: bold;
+
+}
+
+.radiocheck-label {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 1rem;
+    font-size: large;
+    color: rgb(69, 17, 103);
+}
+
+
+
+ 
+
+  
+  
+
+  
+  
